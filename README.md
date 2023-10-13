@@ -19,10 +19,10 @@ _This informations was produced by the NASA Exoplanet Archive http://exoplanetar
 
 - `GET: /exoplanets?limit={limit}`
   Buscar a lista de dados de exoplanetas pela ordem padrão
-- `GET: /exoplanets/{id}?limit={limit}`
-  Buscar os dados de exoplaneta pelo id
-- `GET: /exoplanets/search/{pl_name}`
+- `GET: /exoplanets/search/{pl_name}?limit={limit}`
   Buscar a lista de dados de exoplanetas por filtro de nome
+- `GET: /exoplanets/{id}`
+  Buscar os dados de exoplaneta pelo id
 
 ## Get Started
 
