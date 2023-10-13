@@ -1,0 +1,26 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model exoplanet {
+  id              Int    @id @unique(map: "id_UNIQUE") @default(autoincrement())
+  loc_rowid       Int
+  pl_name         String?
+  sy_snum         Int?
+  sy_mnum         Int?
+  discoverymethod String?
+  disc_year       Int?
+  disc_pubdate    String?
+  disc_locale     String?
+  pl_orbper       String?
+  st_age          String?
+  sy_dist         String?
+}
