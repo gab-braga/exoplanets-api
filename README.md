@@ -1,5 +1,10 @@
 # Exoplanets API
 
+## Technologies
+* Node.js
+* Prisma
+* MySQL
+
 ## Details
 
 _This informations was produced by the NASA Exoplanet Archive http://exoplanetarchive.ipac.caltech.edu Thu Oct 12 11:06:27 2023_
