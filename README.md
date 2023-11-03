@@ -6,6 +6,9 @@
 * MySQL
 
 ## Details
+The Exoplanet API is a robust and efficient Node.js-based web service designed to provide comprehensive information
+about exoplanets. This API allows astronomers, researchers, and enthusiasts to access a wealth of data about
+exoplanets beyond our solar system.
 
 _This informations was produced by the NASA Exoplanet Archive http://exoplanetarchive.ipac.caltech.edu Thu Oct 12 11:06:27 2023_
 
