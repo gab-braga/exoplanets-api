@@ -26,11 +26,11 @@ _This informations was produced by the NASA Exoplanet Archive http://exoplanetar
 ## Endpoints
 
 - `GET: /exoplanets?limit={limit}`
-  Buscar a lista de dados de exoplanetas pela ordem padrão
+  Search a list of exoplanet data in default order.
 - `GET: /exoplanets/search/{pl_name}?limit={limit}`
-  Buscar a lista de dados de exoplanetas por filtro de nome
+  Search the list of exoplanet data by name filter.
 - `GET: /exoplanets/{id}`
-  Buscar os dados de exoplaneta pelo id
+  Search exoplanet data by ID.
 
 ## Get Started
 
